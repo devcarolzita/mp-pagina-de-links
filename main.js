@@ -11,7 +11,7 @@ window.onload = function () {
   const linksList = document.querySelector(".card__links");
   const socialLinks = document.querySelector(".card__social-links");
 
-  avatarImage.src = profileData.avatar;
+  avatarImage.src = `https://avatars.githubusercontent.com/u/42356399?v=4`;
   avatarImage.alt =
     "Imagem de perfil de " + profileData.name + " " + profileData.lastName;
 

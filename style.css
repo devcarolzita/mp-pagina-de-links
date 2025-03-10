@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap");
 
+:root {
+  --primary-color: #1f2937;
+  --secondary-color: #fbbf24;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -24,7 +29,7 @@
 
 .card {
   border-radius: 19px;
-  border: 3px solid #3c5335;
+  border: 3px solid var(--primary-color);
   background: rgb(255 255 255 / 0.81);
   padding: 52px 10px;
   width: 516px;
@@ -50,7 +55,7 @@
 }
 
 .card-header__name {
-  color: #3c5335;
+  color: var(--primary-color);
   font-size: 36px;
   font-weight: 400;
 }
@@ -70,9 +75,9 @@
 
 .card__links li {
   border-radius: 17px;
-  border-right: 5px solid #c4ffb2;
-  border-bottom: 5px solid #c4ffb2;
-  background: #3c5335;
+  border-right: 5px solid #fbbf24;
+  border-bottom: 5px solid #fbbf24;
+  background: #1f2937;
 
   list-style: none;
   width: 100%;
@@ -92,18 +97,9 @@
   width: 100%;
 }
 
-.card__social-links {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  list-style: none;
-  gap: 59px;
-}
-
-.card__social-links img {
-  width: 46px;
-  height: 46px;
+.card__links li:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
 }
 
 @media (max-width: 516px) {

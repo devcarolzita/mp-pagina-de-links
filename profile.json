@@ -1,22 +1,25 @@
 {
-  "name": "Ícaro ",
-  "lastName": "Harry",
+  "name": "Carol ",
   "avatar": "profile.jpg",
 
-  "description": "Co-fundador e professor no Codante. Desenvolvedor web front-end. Conheça meu trabalho 👇🏽",
+  "description": "Desenvolvedora Front-end, apaixonada por tecnologia e inovação. Segue os links 👇🏽",
 
   "links": [
     {
-      "text": "Meu portfólio",
-      "href": "https://icaro.io"
+      "text": "APIS secretas",
+      "href": "https://docs.apis.codante.io/"
     },
     {
-      "text": "Conheça o Codante",
-      "href": "https://codante.io"
+      "text": "Testes técnicos",
+      "href": "https://codante.io/testes-tecnicos"
     },
     {
-      "text": "Meu último vídeo",
-      "href": "https://www.youtube.com/watch?v=UhyJO3UP2bw&t=1s"
+      "text": "Guias de estudo",
+      "href": "https://guias.codante.io/next-auth/"
+    },
+    {
+      "text": "Blog",
+      "href": "https://codante.io/blog"
     }
   ],
 
