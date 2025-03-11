@@ -1,6 +1,6 @@
 import profileData from "./profile.json";
 
-document.title = "Links de " + profileData.name + " " + profileData.lastName;
+document.title = "Codante links";
 
 window.onload = function () {
   const avatarImage = document.querySelector(".card-header__profile-image");
