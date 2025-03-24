@@ -5,6 +5,10 @@
   "description": "Desenvolvedora Front-end, apaixonada por tecnologia e inovação. Segue os links 👇🏽",
 
   "links": [
+     {
+      "text": "Atalho Emmet Abreviation",
+      "href": "https://gist.github.com/devcarolzita/05468586496993a6dcca98f36a078dbf"
+    },
     {
       "text": "APIS secretas",
       "href": "https://docs.apis.codante.io/"
