@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  --main-color: #3C5335;
+  --secondary-color: #C4FFB2;
+}
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+  width: 100vw;
+  font-family: "Arvo", serif;
+}
+.background {
+  background-image: url('./assets/background.png');
+  background-size: cover;
+  background-position: center;
+}
+.card{
+  width: 100px;
+  border-radius: 20px;
+  border: 3px solid var( --main-color);
+  padding: 50px 30px;
+  width: 516px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  background: rgb(255 255 255 / 0.81);
+}
+.card-header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.card-header__profile-image {
+  height: 142px;
+  width: 142px;
+  border-radius: 100%;
+}
+.card-header__name {
+  color: var(--main-color);
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.card-header__last-name {
+  font-weight: 700;
+}
+.card-header__description {
+  font-size: 1.3rem;
+}
+.card__link {
+  display: flex;
+  flex-direction: column;
+  gap:25px;
+  width: 100%;
+}
+.card__link li {
+  border-radius: 20px;
+  border-right: 5px solid var(--secondary-color);
+  border-bottom: 5px solid var(--secondary-color);
+  background: var(--main-color);
+  list-style: none;
+  width: 100%;
+  padding: 20px 10px;
+  transition: transform 0.3s ease;
+}
+.card__link li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.card__social-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  list-style: none;
+}
+.card__social-links img {
+  width: 30px;
+  height: 30px;
+}
+.card__link li:hover, .card__social-links img:hover{
+  transform: scale(1.1);
+}
